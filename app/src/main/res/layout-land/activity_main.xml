@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitleSong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tubthumping"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="502dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <SeekBar
+        android:id="@+id/seekBarVolume"
+        android:layout_width="167dp"
+        android:layout_height="39dp"
+        android:progress="70"
+        android:rotation="-90"
+        android:thumb="@android:drawable/ic_lock_silent_mode_off"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <SeekBar
+        android:id="@+id/seekBarDuration"
+        style="@style/Widget.AppCompat.SeekBar"
+        android:layout_width="288dp"
+        android:layout_height="35dp"
+        android:backgroundTint="#FFFFFF"
+        android:foregroundTint="#FFFFFF"
+        android:indeterminate="false"
+        android:indeterminateTint="#FFFFFF"
+        android:progress="25"
+        android:progressTint="#FFFFFF"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="113dp"
+        android:layout_height="23dp"
+        android:text="Chumbawamba"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="502dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPlay"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#00FFFFFF"
+        android:visibility="invisible"
+        app:srcCompat="@android:drawable/ic_media_play"
+        tools:layout_editor_absoluteX="341dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPause"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@android:drawable/ic_media_pause"
+        tools:layout_editor_absoluteX="341dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <ImageView
+        android:id="@+id/imageViewSong"
+        android:layout_width="246dp"
+        android:layout_height="217dp"
+        app:srcCompat="@drawable/musicapp"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonShare"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@android:drawable/ic_menu_share"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@android:drawable/arrow_down_float"
+        tools:layout_editor_absoluteX="602dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+        tools:layout_editor_absoluteX="662dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@android:drawable/ic_media_next"
+        tools:layout_editor_absoluteX="452dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@android:drawable/ic_media_previous"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <TextView
+        android:id="@+id/textViewCounterTime"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="1:13"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <TextView
+        android:id="@+id/textViewMaxDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3:33"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="512dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
