@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">MusicApp</string>
+    <string name="_3_33">3:33</string>
+    <string name="tubthumping">Tubthumping</string>
+    <string name="chumbawamba">Chumbawamba</string>
+    <string name="boton_de_play">Boton de play</string>
+    <string name="boton_de_pausa">Boton de pausa</string>
+    <string name="imagen_de_la_cancion_disco">Imagen de la cancion/Disco</string>
+    <string name="boton_de_compartir_canci_n">Boton de compartir canción</string>
+    <string name="boton_de_mostrar_letra_de_la_cancion">Boton de mostrar letra de la cancion</string>
+    <string name="ver_listadod_de_canciones_siguientes">Ver listadod de canciones siguientes</string>
+    <string name="boton_de_cancion_siguiente_en_la_lista_de_reproduccion">Boton de cancion siguiente en la lista de reproduccion</string>
+    <string name="boton_de_cancion_anterior_en_la_lista_de_reproduccion">Boton de cancion anterior en la lista de reproduccion</string>
+    <string name="_1_13">1:13</string>
 </resources>

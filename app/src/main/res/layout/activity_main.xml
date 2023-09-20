@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="268dp"
-        android:text="Tubthumping"
+        android:text="@string/tubthumping"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
         android:textSize="25sp"
@@ -61,7 +61,7 @@
         android:layout_height="23dp"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="238dp"
-        android:text="Chumbawamba"
+        android:text="@string/chumbawamba"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/seekBarDuration"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,7 +79,8 @@
         app:layout_constraintEnd_toStartOf="@+id/imageButton6"
         app:layout_constraintStart_toEndOf="@+id/imageButton7"
         app:layout_constraintTop_toBottomOf="@+id/textViewMaxDuration"
-        app:srcCompat="@android:drawable/ic_media_play" />
+        app:srcCompat="@android:drawable/ic_media_play"
+        android:contentDescription="@string/boton_de_play" />
 
     <ImageButton
         android:id="@+id/imageButtonPause"
@@ -90,7 +91,8 @@
         app:layout_constraintEnd_toStartOf="@+id/imageButton6"
         app:layout_constraintStart_toEndOf="@+id/imageButton7"
         app:layout_constraintTop_toBottomOf="@+id/textViewCounterTime"
-        app:srcCompat="@android:drawable/ic_media_pause" />
+        app:srcCompat="@android:drawable/ic_media_pause"
+        android:contentDescription="@string/boton_de_pausa" />
 
     <ImageView
         android:id="@+id/imageViewSong"
@@ -101,7 +103,8 @@
         app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/musicapp" />
+        app:srcCompat="@drawable/musicapp"
+        android:contentDescription="@string/imagen_de_la_cancion_disco" />
 
     <ImageButton
         android:id="@+id/imageButtonShare"
@@ -112,7 +115,8 @@
         app:layout_constraintEnd_toStartOf="@+id/imageButton4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton7"
-        app:srcCompat="@android:drawable/ic_menu_share" />
+        app:srcCompat="@android:drawable/ic_menu_share"
+        android:contentDescription="@string/boton_de_compartir_canci_n" />
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -123,7 +127,8 @@
         app:layout_constraintEnd_toStartOf="@+id/imageButton5"
         app:layout_constraintStart_toEndOf="@+id/imageButtonShare"
         app:layout_constraintTop_toBottomOf="@+id/imageButtonPause"
-        app:srcCompat="@android:drawable/arrow_down_float" />
+        app:srcCompat="@android:drawable/arrow_down_float"
+        android:contentDescription="@string/boton_de_mostrar_letra_de_la_cancion" />
 
     <ImageButton
         android:id="@+id/imageButton5"
@@ -134,7 +139,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton4"
         app:layout_constraintTop_toBottomOf="@+id/imageButton6"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+        android:contentDescription="@string/ver_listadod_de_canciones_siguientes" />
 
     <ImageButton
         android:id="@+id/imageButton6"
@@ -145,7 +151,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButtonPause"
         app:layout_constraintTop_toBottomOf="@+id/textViewMaxDuration"
-        app:srcCompat="@android:drawable/ic_media_next" />
+        app:srcCompat="@android:drawable/ic_media_next"
+        android:contentDescription="@string/boton_de_cancion_siguiente_en_la_lista_de_reproduccion" />
 
     <ImageButton
         android:id="@+id/imageButton7"
@@ -156,7 +163,8 @@
         app:layout_constraintEnd_toStartOf="@+id/imageButtonPause"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewCounterTime"
-        app:srcCompat="@android:drawable/ic_media_previous" />
+        app:srcCompat="@android:drawable/ic_media_previous"
+        android:contentDescription="@string/boton_de_cancion_anterior_en_la_lista_de_reproduccion" />
 
     <TextView
         android:id="@+id/textViewCounterTime"
@@ -164,7 +172,7 @@
         android:layout_height="19dp"
         android:layout_marginTop="465dp"
         android:layout_marginEnd="85dp"
-        android:text="1:13"
+        android:text="@string/_1_13"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/imageButton7"
         app:layout_constraintEnd_toStartOf="@+id/textViewMaxDuration"
@@ -177,7 +185,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="85dp"
         android:layout_marginTop="465dp"
-        android:text="3:33"
+        android:text="@string/_3_33"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/imageButton6"
         app:layout_constraintEnd_toEndOf="parent"
